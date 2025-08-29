@@ -29,8 +29,8 @@ function MenuCafe (){
             menu.map((item, index)=> {
                 return(
         <div style={styleMenuItem} key={index}>
-            <div><b>Nama Menu : <em>{item.nama}</em>:</b></div>
-            <div><b>Nama Menu : <em>{item.harga}</em>:</b></div>
+            <div><b>Nama Menu : <em>{item.nama}</em></b></div>
+            <div><b>Nama Harga : <em>{item.harga}</em></b></div>
             {(isMakanan == true ) && (<div>Tipe : Makanan</div>) }
         </div>
                 )
